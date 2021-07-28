@@ -199,9 +199,7 @@ border-radius: 5%;
 
 
 @media(max-width:900px){
-    .mic_icon{
-        display: none;
-    }
+    
     .sideber{
         display: none;
     }
@@ -210,20 +208,23 @@ border-radius: 5%;
         padding-right: 5%;
     }
     .nav-right img{
-        display: none;
+        width: 17px;
+        margin-right:10px;
     }
-    .nav-right .user_icon{
-        display: none;
-        width: 30px;
+    .nav-right #user_icon{
+        width: 25px;
     }
     .nav-middle .search_box input{
-        width: 100px;
+        width: 100%;
     }
     .nav-middle .mic_icon{
-        display: none;
+        width: 11px;
     }
-    #logo{
-        width: 30px;
+    .nav-left #logo{
+        width: 80px;
+    }
+    #menu_icon{
+        display: none;
     }
 }
 
