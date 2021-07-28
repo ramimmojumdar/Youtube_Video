@@ -208,17 +208,17 @@ border-radius: 5%;
         padding-right: 5%;
     }
     .nav-right img{
-        width: 17px;
-        margin-right:10px;
+        display: none;
     }
-    .nav-right #user_icon{
+    .nav-right  #user_icon{
         width: 25px;
+        display: inline;
     }
     .nav-middle .search_box input{
         width: 100%;
     }
     .nav-middle .mic_icon{
-        width: 11px;
+        display: none;
     }
     .nav-left #logo{
         width: 80px;
